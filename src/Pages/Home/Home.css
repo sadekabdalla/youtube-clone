@@ -1,0 +1,17 @@
+.containere{
+    background: #f9f9f9;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 16%;
+    padding-right:2% ;
+    
+}
+.larg-container{
+    padding-left: 7%;
+}
+@media (max-width:900px) {
+    .larg-container,.containere{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
